@@ -1,3 +1,9 @@
+# Very basic app-engine compatibility-layer for ntlk on app engine
+Even though nltk mostly works on app engine these days, there's the odd commit that breaks. This simply works around issues like that. A result of that is slightly reduced functionality
+
+## Workarounds
+ - panlex_lite is disabled as it requires sqlite
+
 # Natural Language Toolkit (NLTK)
 
 NLTK -- the Natural Language Toolkit -- is a suite of open source Python
